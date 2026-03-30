@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <section id="header">
+    <div class="container">
+      <div class="navbar">
+        <select>
+          <option value="">RU $</option>
+          <option value="">EN $</option>
+          <option value="">Русский (RU)</option>
+          <option value="">English (EN)</option>
+        </select>
+        <div class="navs">
+          <a href="">Накопительный счет</a>
+          <a href="">Отзывы</a>
+          <a href="">Гарантии</a>
+          <a href="">Как купить</a>
+          <a href="">Накопительная</a>
+          <a href="">Заработай</a>
+        </div>
+        <div class="rules">
+          <h3>Hanzed Rules</h3>
+          <img src="./icons/first.svg" alt="" title="Правила"/>
+        </div>
+      </div>
+
+      <div class="sec-header">
+        <div class="s-name">
+          <img src="./icons/second.svg" alt="" />
+          <a href="/SPEED/index.html">
+              <h2>Playnchill</h2>
+            </a>
+        </div>
+        <div class="search-wrapper">
+          <input type="text" class="inp-icon" placeholder="Поиск" />
+          <img src="./icons/poisk.svg" alt="" class="search-icon" />
+        </div>
+        <div class="header-right">
+          <a href="" class="free-link">Бесплатно</a>
+          <div class="header-icons">
+            <img class="likeh" src="./icons/like.svg" alt="Избранное" title="Мне нравится"/>
+            <img src="./icons/korzina.svg" alt="Корзина" title="Корзина"/>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main>
+    <div class="container">
+      <div class="catalog-tovarov">
+        <div class="catalog-tovarov">
+          <aside class="filters">
+            <div class="price-section">
+              <h3 class="price-title">Цена ₽</h3>
+              <div class="price-labels">
+                <span class="price-label">От</span>
+                <span class="price-label">До</span>
+              </div>
+              <div class="price-values-display">
+                <span class="price-value">60</span>
+                <span class="price-value">11 300</span>
+              </div>
+              <div class="price-range-track">
+                <input type="range" class="range-input" min="0" max="50000" value="60">
+                <input type="range" class="range-input" min="0" max="50000" value="11300">
+              </div>
+            </div>
+
+            <div class="filter-category">
+              <div class="filter-category-header">
+                <h4 class="category-title">Тип аккаунта</h4>
+                <span class="category-arrow">▲</span>
+              </div>
+              <div class="category-options">
+                <label class="filter-option">
+                  <input type="checkbox" checked>
+                  <span class="checkbox-custom-green"></span>
+                  <span class="option-text">Аккаунт</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Лицензионный ключ</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Активация</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Лицензионный ключ</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Активация</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="filter-category">
+              <div class="filter-category-header">
+                <h4 class="category-title">Тип аккаунта</h4>
+                <span class="category-arrow">▲</span>
+              </div>
+              <div class="category-options">
+                <label class="filter-option">
+                  <input type="checkbox" checked>
+                  <span class="checkbox-custom-green"></span>
+                  <span class="option-text">Аккаунт</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Лицензионный ключ</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Активация</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Лицензионный ключ</span>
+                </label>
+                <label class="filter-option">
+                  <input type="checkbox">
+                  <span class="checkbox-custom"></span>
+                  <span class="option-text">Активация</span>
+                </label>
+              </div>
+            </div>
+
+            <div class="filter-toggles">
+              <div class="toggle-item">
+                <span class="toggle-label">Только скидки</span>
+                <label class="toggle-switch">
+                  <input type="checkbox" checked>
+                  <span class="toggle-slider"></span>
+                </label>
+              </div>
+              <div class="toggle-item">
+                <span class="toggle-label">Новинки</span>
+                <label class="toggle-switch">
+                  <input type="checkbox">
+                  <span class="toggle-slider"></span>
+                </label>
+              </div>
+              <div class="toggle-item">
+                <span class="toggle-label">Хит продаж</span>
+                <label class="toggle-switch">
+                  <input type="checkbox">
+                  <span class="toggle-slider"></span>
+                </label>
+              </div>
+            </div>
+
+            <button class="reset-filters-btn">Сбросить фильтры</button>
+          </aside>
+
+          <div class="catalog-main">
+            <div class="catalog-header">
+              <h2>Каталог товаров</h2>
+              <button class="sort-btn">Сначала дешевые</button>
+            </div>
+
+            <div class="products-grid">
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/journey.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">16 400 ₽</span>
+                    <span class="price-discount">-15%</span>
+                    <span class="price-old">16 400 ₽</span>
+                  </div>
+                  <p class="product-title">Minecraft</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/shorthike.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">1 000 ₽</span>
+                    <span class="price-discount">-10%</span>
+                    <span class="price-old">1 200 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/LittleBIGPlanet.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">2 500 ₽</span>
+                    <span class="price-discount">-20%</span>
+                    <span class="price-old">3 100 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/journey.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">950 ₽</span>
+                    <span class="price-discount">-5%</span>
+                    <span class="price-old">1 000 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/shorthike.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">3 500 ₽</span>
+                    <span class="price-discount">-30%</span>
+                    <span class="price-old">5 000 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/LittleBIGPlanet.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">2 200 ₽</span>
+                    <span class="price-discount">-12%</span>
+                    <span class="price-old">2 500 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/journey.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">4 100 ₽</span>
+                    <span class="price-discount">-18%</span>
+                    <span class="price-old">5 000 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/shorthike.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">1 500 ₽</span>
+                    <span class="price-discount">-25%</span>
+                    <span class="price-old">2 000 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="product-card">
+                <div class="product-img">
+                  <img src="./icons/LittleBIGPlanet.png" alt="">
+                </div>
+                <div class="product-info-bottom">
+                  <div class="price-info">
+                    <span class="price-current">3 200 ₽</span>
+                    <span class="price-discount">-8%</span>
+                    <span class="price-old">3 500 ₽</span>
+                  </div>
+                  <p class="product-title">Название игры</p>
+                  <div class="product-footer">
+                    <span>● Ключ</span>
+                    <span>● Аккаунт Steam</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section class="end">
+    <div class="container">
+      <div class="end-dd">
+        <img src="./icons/paypal.svg" alt="">
+        <img src="./icons/mastercard.svg" alt="">
+        <img src="./icons/visa.svg" alt="">
+        <img src="./icons/mir.svg" alt="">
+        <img src="./icons/webmoney.svg" alt="">
+        <img src="./icons/paypal.svg" alt="">
+        <img src="./icons/paypal.svg" alt="">
+      </div>
+      <div class="end-main">
+        <div class="end-vv">
+          <div class="end-blo">
+            <h5>О компании</h5>
+            <h6>О нас</h6>
+            <h6>Вакансии</h6>
+            <h6>Реквизиты</h6>
+          </div>
+          <div class="end-blo">
+            <h5>Договор оферты</h5>
+            <h6>Каталог</h6>
+            <h6>Акции</h6>
+            <h6>Личный кабинет</h6>
+          </div>
+          <div class="end-blo">
+            <h5>Договор оферты</h5>
+            <h6>Каталог</h6>
+            <h6>Акции</h6>
+            <h6>Личный кабинет</h6>
+          </div>
+        </div>
+        <div class="end-bb">
+          <div class="end-uu">
+            <div class="end-oo">
+              <img src="./icons/Subtract.svg" alt="">
+            </div>
+            <div class="end-ii">
+              <h6>verified</h6>
+              <h5>WebMoney</h5>
+            </div>
+          </div>
+          <div class="end-uu">
+            <div class="and-kd">
+              <img src="./icons/Google_Safe_Browsing1.svg" alt="">
+            </div>
+            <div class="end-ii">
+              <h6>Safe Browsing</h6>
+              <h5>Google</h5>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="end-mm">
+        <p>
+          Все продаваемые ключи закупаются у официальных дистрибьюторови издателей. В том числе у 1С-СофтКлаб, Бука, Новый Диск и Enaza
+        </p>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <div class="container">
+    <div class="dds">
+      <a href="">Правовая информация</a>
+      <h6>Интернет-магазин игр «Playnchill» © 2022</h6>
+      <div class="dds-right">
+        <select class="dds-select">
+          <option>RU $</option>
+          <option>EN $</option>
+        </select>
+        <img src="./icons/vk.svg" alt="">
+        <img src="./icons/telegram.svg" alt="">
+        <img src="./icons/twitter.svg" alt="">
+        <img src="./icons/instagram.svg" alt="">
+      </div>
+    </div>
+  </div>
+
+</body>
+
+</html>

@@ -1,0 +1,441 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  background-color: #06030F;
+  color: #b0b0d0;
+}
+
+#header {
+  background-color: #06030F;
+  border-bottom: 1px solid rgba(120, 119, 198, 0.3);
+  padding: 0;
+}
+
+.container {
+  max-width: 1260px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar {
+  display: flex;
+   justify-content: space-between;
+  align-items: center;
+    padding: 12px 0;
+  border-bottom: 1px solid rgba(120, 119, 198, 0.2);
+}
+
+select {
+  padding: 3px 4px;
+  border: none;
+    border-radius: 5px;
+  background-color: transparent;
+  color: #b0b0d0;
+     font-size: 13px;
+  font-weight: 500;
+     cursor: pointer;
+  appearance: auto;
+}
+
+select option {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+.navs {
+  display: flex;
+  align-items: center;
+   gap: 40px;
+  flex: 1;
+   justify-content: center;
+}
+
+.navs a {
+  color: #b0b0d0;
+  font-weight: 500;
+  font-size: 13px;
+  text-decoration: none;
+  margin: 0;
+}
+
+.rules {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.rules h3 {
+  color: #b0b0d0;
+  font-size: 13px;
+  font-weight: 500;
+  margin: 0;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rules img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  padding: 0;
+}
+
+.sec-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  gap: 40px;
+}
+
+.s-name {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.s-name img {
+  width: 28px;
+  height: 28px;
+}
+
+.s-name h2 {
+  color: #ffffff;
+  font-size: 24px;
+  font-weight: 700;
+  margin: 0;
+  letter-spacing: -0.5px;
+}
+
+.search-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  max-width: 500px;
+  position: relative;
+  gap: 5px;
+}
+
+.inp-icon {
+  width: 100%;
+  padding: 14px 16px;
+  background-color: rgba(120, 119, 198, 0.15);
+  border: 1px solid rgba(120, 119, 198, 0.3);
+  border-radius: 8px;
+  color: #b0b0d0;
+  font-size: 14px;
+  outline: none;
+}
+
+.search-icon {
+  position: absolute;
+  right: 12px;
+  width: 18px;
+  height: 18px;
+  opacity: 0.7;
+}
+
+.header-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  flex-shrink: 0;
+}
+
+.free-link {
+  color: #77be1d;
+  font-weight: 600;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.header-icons img {
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition-duration: 0.2s;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.big-text1 {
+  width: auto;
+  height: 50px;
+  font-size: 55px;
+}
+
+.txt-prem {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 100px;
+  margin-top: 60px;
+}
+
+.txt-prem img {
+  width: 455px;
+  height: 431px;
+}
+
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.card {
+  background-color: #090613;
+  border-radius: 24px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border: 1px solid rgba(120, 119, 198, 0.2);
+}
+
+
+.up-block {
+  display: flex;
+  align-items: flex-start;
+  gap: 20px;
+}
+
+.up-block img {
+  width: 100px;
+  height: 100px;
+  padding: 20px;
+  border-radius: 16px;
+  flex-shrink: 0;
+  object-fit: contain;
+  box-sizing: border-box;
+}
+
+.up-block h2 {
+  color: #ffffff;
+  font-size: 28px;
+  font-weight: 700;
+  line-height: 1.2;
+  margin: 0;
+  align-self: center;
+}
+
+.down-block {
+  display: flex;
+  flex-direction: column;
+}
+
+.down-block p {
+  color: #b0b0d0;
+  font-size: 14px;
+  line-height: 1.8;
+  margin: 0;
+  text-align: justify;
+}
+
+
+
+/* -------------------------------*/
+
+.end-dd img {
+  height: 40px;
+  object-fit: contain;
+  margin: 0 15px;
+}
+
+.end-dd {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+  padding: 30px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.end-main {
+  display: flex;
+  margin-top: 50px;
+  gap: 70px;
+}
+
+.end-vv {
+  display: flex;
+  gap: 200px;
+}
+
+.end-bb {
+  display: flex;
+  gap: 30px;
+}
+
+.end-blo h5 {
+  color: rgb(231, 231, 231);
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.end-blo h6 {
+  color: rgba(255, 255, 255, 0.404);
+  font-size: 17px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.end-uu {
+  display: flex;
+  gap: 10px;
+  margin-top: 50px;
+}
+
+.end-oo img {
+  width: 43px;
+  height: 30px;
+}
+
+.and-kd img {
+  width: 50px;
+  height: 45px;
+}
+
+.end-ii h6 {
+  font-size: 11px;
+  font-weight: 400;
+  color: white;
+  margin-bottom: 5px;
+}
+
+.end-ii h5 {
+  font-size: 13px;
+  font-weight: 600;
+  color: white;
+}
+
+.end-mm p {
+  font-size: 15px;
+  margin-top: 50px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.342);
+  margin-bottom: 50px;
+  line-height: 1.6;
+}
+
+.dds {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+.dds a {
+  font-size: 18px;
+  font-weight: 400;
+  text-decoration: none;
+  color: #4277ff;
+  flex-shrink: 0;
+}
+
+.dds h6 {
+  font-size: 18px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.355);
+  margin: 0;
+  flex: 1;
+  text-align: center;
+}
+
+.dds-right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  flex-shrink: 0;
+}
+
+.dds-select {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  background-color: transparent;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 14px;
+  font-weight: 400;
+  cursor: pointer;
+  appearance: auto;
+}
+
+.dds-select option {
+  background-color: #1a1a2e;
+  color: #ffffff;
+}
+
+.dds-right img {
+  width: 20px;
+  height: 20px;
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+.end {
+  background-color: #06030F;
+  padding-bottom: 20px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0;
+  background-color: #06030F;
+}
+
+.end {
+  background-color: #06030F;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  margin: 0 0;
+  background-color: #06030F;
+}
+
+
+button:hover {
+  transform: scale(1.1);
+  transition: 1s;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  cursor: pointer;
+}
